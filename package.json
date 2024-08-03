@@ -1,0 +1,31 @@
+{
+  "name": "ecoconnect-server",
+  "version": "1.0.0",
+  "description": "server for eccoconnect",
+  "main": "functions/server.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "dev": "nodemon functions/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "deendayal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "netlify-cli": "^17.33.5",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^3.1.4",
+    "react-toastify": "^10.0.5",
+    "serverless-http": "^3.2.0"
+  }
+}
